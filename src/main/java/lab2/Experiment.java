@@ -147,9 +147,9 @@ public class Experiment {
         for (double element : ruv) {
             System.out.println(element);
         }
-        System.out.printf("Naturalized \na0 = %f.3\na1 = %f.3\na2 = %f.3", koef0, koef1, koef2);
-        System.out.printf("\nY practice \ny1 = %f.3\ny2 = %f.3\ny3 = %f.3\nY avr = %f.3, %f.3, %f.3", yPr1, yPr2, yPr3, avY[0], avY[1], avY[2]);
-        System.out.printf("\nY pr normal = %f.3, %f.3, %f.3", yP1, yP2, yP3);
+        System.out.printf("Naturalized \na0 = %.3f\na1 = %.3f\na2 = %.3f", koef0, koef1, koef2);
+        System.out.printf("\nY practice \ny1 = %.3f\ny2 = %.3f\ny3 = %.3f\nY avr = %.3f, %.3f, %.3f", yPr1, yPr2, yPr3, avY[0], avY[1], avY[2]);
+        System.out.printf("\nY pr normal = %.3f, %.3f, %.3f", yP1, yP2, yP3);
         System.out.println();
     }
 }
